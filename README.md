@@ -1,0 +1,2 @@
+# Unreachable Code in Julia
+This example demonstrates an uncommon error in Julia: unreachable code.  The `println` statement and the `return 0` statement within the `my_function` are unreachable because the `if-else` block already handles all possible cases for the input `x`.  This could lead to unexpected behavior or compiler warnings in more complex scenarios. The solution shows how to remove the dead code for better readability and efficiency.
